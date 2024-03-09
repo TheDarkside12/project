@@ -2,16 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import NavMenu from './Nav'
 
-function Home() {
+function Signin() {
   return (
     <Container>
       <NavMenu/>
-      <h1>Home</h1>
+      <h1>Signin</h1>
     </Container>
   )
 }
 
-export default Home
+export default Signin
 
 const Container =styled.main`
 height:100vh;
